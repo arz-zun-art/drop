@@ -13,16 +13,11 @@ app.get('/', (req, res) => {
 // About route (GET)
 app.get('/about', (req, res) => {
     res.send('About page of your server.');
-});
+}); {
+    function handleRequest(req, res) { //yo function le server ma aayeko request lai handle garcha, yo function le client lai response pathaune kam garcha
+    }
+    const server = https.createServer(app); //yo line le https server create garcha, handleRequest function lai request handler ko rup ma pass garcha
 
-// POST route (receives data)
-app.post('/data', (req, res) => {
-    console.log(req.body); // log incoming data
-    res.send({ message: 'Data received!', yourData: req.body });
-});
-
-// Start server
-const PORT = 3000;
-app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-});
+    myserver.listen(3000, () => { //yo line le server lai port 3000 ma listen garcha, jab server successfully start huncha tab console ma message print garcha
+                console.log('Server running on https://localhost:3000');
+            }
