@@ -1,26 +1,26 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "basics.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "express": "^5.2.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arz-zun-art/drop.git"
-  },
-  "bugs": {
-    "url": "https://github.com/arz-zun-art/drop/issues"
-  },
-  "homepage": "https://github.com/arz-zun-art/drop#readme",
-  "devDependencies": {}
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "basics.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node node.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "express": "^5.2.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arz-zun-art/drop.git"
+    },
+    "bugs": {
+        "url": "https://github.com/arz-zun-art/drop/issues"
+    },
+    "homepage": "https://github.com/arz-zun-art/drop#readme",
+    "devDependencies": {}
 }
